@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/lux/bootstrap.min.css">
+    <title>ourMovie</title>
+</head>
+<body>
+    <nav>
+        <nav-bar></nav-bar>
+    </nav>
+
+    <main>
+        <search-movie></search-movie>
+        <search-results>
+            
+        </search-results>
+        
+    </main>   
+
+    
+    <footer-attribution></footer-attribution>
+
+    <script>
+        const selectedMovie = id => {
+            sessionStorage.setItem('currentId', id);
+            window.location.href = '/movieinfo.html';
+            return false;
+        }
+    </script>
+</body>
+</html>
