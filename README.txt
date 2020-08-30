@@ -3,7 +3,7 @@ What's included:
 -Fetch API
 -Webpack
 
-
+API provided by TMDB API https://developers.themoviedb.org/3
 
 Instruction (Indonesian):
 1. Run command npm install untuk menyiapkan packages
