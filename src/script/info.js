@@ -4,7 +4,7 @@ import './components/results.js';
 import './components/footer-attribution.js';
 import './components/movie-info.js';
 
-const APIKEY = "ee3f9209ce8dcd047830265aaa1494ea"; //API KEY TMDB milik saya
+const APIKEY = null; //get your own API Key from https://developers.themoviedb.org/3
 const baseURL = "https://api.themoviedb.org/3/";
 
 
